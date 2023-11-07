@@ -1,0 +1,29 @@
+"C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S "C:\Users\trext\OneDrive\Desktop\THU\Semester 5\CG\2D-Project" -B "C:\Users\trext\OneDrive\Desktop\THU\Semester 5\CG\2D-Project\bin"
+Your Source Directory contains spaces. If you experience problems when compiling, this can be the cause.
+Your Build Directory contains spaces. If you experience problems when compiling, this can be the cause.
+CMake Deprecation Warning at external/glfw-3.1.2/CMakeLists.txt:8 (cmake_policy):
+  The OLD behavior for policy CMP0042 will be removed from a future version
+  of CMake.
+
+  The cmake-policies(7) manual explains that the OLD behaviors of all
+  policies are deprecated and that a policy should be set to OLD only under
+  specific short-term circumstances.  Projects should be ported to the NEW
+  behavior and not rely on setting a policy to OLD.
+
+
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+-- Using Win32 for window creation
+-- Using WGL for context creation
+CMake Deprecation Warning at CMakeLists.txt:24 (cmake_policy):
+  The OLD behavior for policy CMP0026 will be removed from a future version
+  of CMake.
+
+  The cmake-policies(7) manual explains that the OLD behaviors of all
+  policies are deprecated and that a policy should be set to OLD only under
+  specific short-term circumstances.  Projects should be ported to the NEW
+  behavior and not rely on setting a policy to OLD.
+
+
+-- Configuring done (1.8s)
+-- Generating done (0.9s)
+-- Build files have been written to: C:/Users/trext/OneDrive/Desktop/THU/Semester 5/CG/2D-Project/bin

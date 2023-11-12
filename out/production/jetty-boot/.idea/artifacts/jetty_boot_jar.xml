@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="jetty-boot:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/jetty_boot_jar</output-path>
+    <root id="archive" name="jetty-boot.jar">
+      <element id="module-output" name="jetty-boot" />
+    </root>
+  </artifact>
+</component>

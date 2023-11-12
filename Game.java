@@ -10,7 +10,7 @@ public class Game extends Frame implements ActionListener, KeyListener {
 
     private static final int WINDOW_WIDTH = 600;
     private static final int WINDOW_HEIGHT = 800;
-    private static final int TUBE_GAP = WINDOW_HEIGHT/5;
+    private static final int TUBE_GAP = WINDOW_HEIGHT/4;
     private static final int TUBE_WIDTH = WINDOW_WIDTH/10;
     private static final int TUBE_HEIGHT = WINDOW_HEIGHT;
     private static final int BOOT_WIDTH = 50;

@@ -236,7 +236,7 @@ public class Game extends Frame implements ActionListener, KeyListener {
         checkCollision(boot.getRectangle(), bt2.getTube());
         checkCollision(boot.getRectangle(), tt1.getTube());
         checkCollision(boot.getRectangle(), tt2.getTube());
-        if(boot.getY() + BOOT_HEIGHT > WINDOW_HEIGHT) {
+        if(boot.getY() + BOOT_HEIGHT > WINDOW_HEIGHT*7/8) {
             gameOver();
         }
     }

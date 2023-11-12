@@ -21,6 +21,13 @@ public class GameScreen extends JPanel {
     public void paintComponent(Graphics graphic) {
         super.paintComponent(graphic);
 
+        graphic.setColor(new Color(53, 182, 229));
+        graphic.fillRect(0, 0, width, height*7/8);
+        graphic.setColor(new Color(166, 93, 73));
+        graphic.fillRect(0, height*7/8, width, height/8);
+        graphic.setColor(Color.BLACK);
+        graphic.drawLine(0, height*7/8, width, height*7/8);
+
         if(bottomTube1 != null && bottomTube2 != null && topTube1 != null && topTube2 != null) {
             graphic.setColor(new Color(10, 125, 4));
             graphic.fillRect(bottomTube1.getX(), bottomTube1.getY(), bottomTube1.getWidth(), bottomTube1.getHeight());
